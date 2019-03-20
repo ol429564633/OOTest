@@ -21,7 +21,11 @@ def match(strs, standard):
             str1 = "8848*x"
             standard = "4424*x^2"
         print(temp_str)
-        newStrs.update({temp_str: simplify(str1)})
+        try:
+            newStrs.update({temp_str: simplify(str1)})
+        except SympifyError as e:
+            str1 = "9909*x"
+            newStrs.update({temp_str: simplify(str1)})
         mark.update({temp_str: True})
 
     standard = standard.replace("^", "**")
