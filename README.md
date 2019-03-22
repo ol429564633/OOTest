@@ -1,12 +1,12 @@
 # README
 
-A auto checker for BUAA OO course.
+An auto checker for BUAA OO course.
 
 **Packages Required for Python:** `sympy, xeger`
 
-`myMatch.py:` a auto checker
+~~`myMatch.py:` an auto checker~~
 
-`generate.py:` a data generator
+`generate.py:` an data generator
 
 By Nemo
 
